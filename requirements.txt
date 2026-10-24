@@ -1,0 +1,6 @@
+faster-whisper==1.2.1
+# PyAV 19 removed av.open(metadata_errors=...), which 1.2.1 still passes.
+av>=11,<19
+nvidia-cublas-cu12
+nvidia-cudnn-cu12
+nvidia-cuda-nvrtc-cu12
